@@ -141,7 +141,7 @@ class TreasureMap {
                 if (random < 0.3) {
                     reject("你尝试了多次密码都不对，箱子突然发出警报声，你不得不逃离！");
                 }
-                resolve("你想起纸上的'1492'，箱子'咔哒'一声打开了！");
+                resolve("你想起地图后面的'1492'，箱子'咔哒'一声打开了！");
             }, 6000);
         });
     }
@@ -283,3 +283,4 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.resetBtn.addEventListener('click', resetGame);
 
 });
+
