@@ -51,7 +51,7 @@ class TreasureMap {
     static solveRiddle() {
         return new Promise((resolve) => {
             elements.answerContainer.style.display = 'flex';
-            elements.storyBox.textContent = "你展开羊皮纸，上面写着11492和一个谜语：早晨四条腿，中午两条腿，晚上三条腿，打一生物。请输入你的答案：";
+            elements.storyBox.textContent = "你展开羊皮纸，上面写着1492和一个谜语：早晨四条腿，中午两条腿，晚上三条腿，打一生物。请输入你的答案：";
             elements.answerInput.focus();
             elements.answerFeedback.textContent = '';
 
@@ -281,4 +281,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // 绑定按钮点击事件
     elements.startBtn.addEventListener('click', startTreasureHunt);
     elements.resetBtn.addEventListener('click', resetGame);
+
 });
